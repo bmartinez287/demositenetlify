@@ -1,4 +1,4 @@
-baseURL = "https://www.bernardomartinez.dev"
+baseURL = ""
 languageCode = "en-us"
 title = "Hugo Creative Theme"
 theme = "hugo-creative-theme"
