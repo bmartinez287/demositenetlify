@@ -94,26 +94,26 @@ googleAnalytics = ""
 			link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 
-    # Service section
-	[params.services]
+    # Service2 section
+	[params.servicess]
 		headline = "Registration Form"
 
-        [[params.services.list]]
+        [[params.servicess.list]]
             icon = "fa-diamond"
             title = "Sturdy Templates"
             description = "Our templates are updated regularly so they don't break."
 
-        [[params.services.list]]
+        [[params.servicess.list]]
 			icon = "fa-paper-plane"
 			title = "Ready to Ship"
 			description = "You can use this theme as is, or you can make changes!"
 
-		[[params.services.list]]
+		[[params.servicess.list]]
             icon = "fa-newspaper-o"
             title = "Up to Date"
             description = "We update dependencies to keep things fresh."
 
-        [[params.services.list]]
+        [[params.servicess.list]]
             icon = "fa-heart"
             title = "Made with Love"
             description = "You have to make your websites with love these days!"
