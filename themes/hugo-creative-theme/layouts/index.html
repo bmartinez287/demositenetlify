@@ -20,12 +20,12 @@
             {{ partial "services.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.form.list }}
-            {{ partial "form.html" . }}
-        {{ end }}
-
         {{ if .Site.Data.projects }}
             {{ partial "portfolio.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.form.list }}
+        {{ partial "form.html" . }}
         {{ end }}
 
         {{ if .Site.Params.location }}
