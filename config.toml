@@ -29,7 +29,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "Hugo Creative Theme"
+		brand = "uCAS"
 
 		[params.navigation.links]
 			about     = "About"
@@ -92,6 +92,33 @@ googleAnalytics = ""
 		[params.aside.button]
 			text = "Download now"
 			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+
+    # Service section
+	[params.services]
+		headline = "Registration Form"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Sturdy Templates"
+            description = "Our templates are updated regularly so they don't break."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Ready to Ship"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Up to Date"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "You have to make your websites with love these days!"
+
+
 
 	# Contact section
 	[params.contact]
