@@ -3,12 +3,13 @@
     {{ with .Site.Params.form.headline }}
     <div class="container">
     <div class="row">
+    <div class="col-lg-3 col-md-6 text-center">
     <form name="contact" method="POST" data-netlify="true">
         <p>
-            <h3>Your Name: <input type="text" name="name" /><h3>  
+            <h3>Name:<input type="text" name="name" /><h3>  
         </p>
         <p>
-                <h3>Your Email: <input type="email" name="email" /><h3>
+                <h3>Email:<input type="email" name="email" /><h3>
         </p>
         <p>
                 <h3>Your Role: <select name="role[]" multiple>
@@ -20,9 +21,11 @@
                 <h3>Message: <textarea name="message"></textarea><h3>
         </p>
         <p>
-          <button type="submit">Send</button>
+        <a class="btn btn-default btn-xl wow tada" style="visibility: visible; animation-name: tada;" type="submit">Download now</a>
+        <!-- <button type="submit">Send</button>--> 
         </p>
       </form>
+    </div>
     </div>
     </div>
         <div class="container">
