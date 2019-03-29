@@ -119,6 +119,14 @@ googleAnalytics = ""
             description = "You have to make your websites with love these days!"
 
 
+    # Aside section
+	[params.asidetwo]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.asidetwo.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
 
 	# Contact section
 	[params.contact]

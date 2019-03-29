@@ -30,9 +30,13 @@
         {{ if .Site.Params.aside }}
             {{ partial "aside.html" . }}
         {{ end }}
-        
+
         {{ if .Site.Params.form.list }}
         {{ partial "form.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.aside }}
+            {{ partial "asidetwo.html" . }}
         {{ end }}
 
         {{ if .Site.Params.contact }}
